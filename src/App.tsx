@@ -1,32 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
-// import Header from './components/Header';
-// import Navigation from './components/Navigation';
-
-import About from "./pages/About";
 import Home from "./pages/Home";
-// import Contact from './pages/Contact';
+import Footer from "./components/footer";
 
 const App: React.FC = () => {
   return (
-    <Router>
       <div className="App">
-        {/* <Header darkMode={false} toggleDarkMode={function (): void {
-          throw new Error("Function not implemented.");
-        } } /> */}
         <div className="main">
-          <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/" element={<Home />} />
-          </Routes>
+          <Home />
         </div>
-        {/* <footer>
+        <footer>
           <Footer/>
-        </footer> */}
+        </footer>
       </div>
-    </Router>
   );
 };
 

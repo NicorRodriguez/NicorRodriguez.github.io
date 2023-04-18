@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070508;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .social-media-links a:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-text {
+    margin: 0;
+  }
+  
