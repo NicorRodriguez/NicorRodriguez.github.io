@@ -14,6 +14,10 @@ const Home = () => {
             strong background in software development and operations, I am committed to streamlining development processes and improving deployment efficiency, while maintaining a focus on
             scalability, security, and reliability. My expertise in these areas has enabled me to successfully design, implement, and manage complex software systems for various organizations.
           </p>
+          <div className="project-conntent">
+            <img className="teamfaf-img" src="/images/teamfaf_app.png" />
+            <p className="hero-text-smaller">Created a mobile application using React for GYM management.</p>
+          </div>
         </div>
       </div>
     </div>
